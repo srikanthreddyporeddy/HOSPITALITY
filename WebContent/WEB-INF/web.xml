@@ -12,12 +12,14 @@
     <servlet-name>registerservlet</servlet-name>
     <url-pattern>/registerservlet</url-pattern>
   </servlet-mapping>
-   <!-- <servlet>
-  	<servlet-name>LoginServlet</servlet-name>
-  	<servlet-class>servlets.LoginServlet</servlet-class>
+  
+  <servlet>
+    <servlet-name>loginservlet</servlet-name>
+    <servlet-class>servlets.loginservlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>Loginservlet</servlet-name>
-  	<url-pattern>/LoginServlet</url-pattern>
-  </servlet-mapping> -->
+    <servlet-name>loginservlet</servlet-name>
+    <url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

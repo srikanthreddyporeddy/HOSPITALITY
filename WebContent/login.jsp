@@ -100,12 +100,12 @@
 									<h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Login Here </h3>
 									</div>
 									<div class="panel-body">
-									<form action="LoginServlet" method="post" role="form" class="lead" name="loginForm" onsubmit="return validateForm">
+									<form action="loginservlet" method="post" role="form" class="lead" name="loginForm" onsubmit="return validateForm">
 										<div class="row">
 											<div class="col-xs-12 col-sm-12 col-md-12">
 												<div class="form-group">
 													<label>UserName</label>
-													<input type="text" name="UserName" id="UserName" class="form-control input-md">
+													<input type="text" name="username" id="UserName" class="form-control input-md">
 												</div>
 											</div>
 										</div>
